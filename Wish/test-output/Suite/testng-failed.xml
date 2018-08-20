@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="tabName" value="Projects"/>
+  <test name="Test(failed)">
+    <parameter name="tabName" value="Projects"/>
+    <classes>
+      <class name="learningTestNG.Project_Vultus">
+        <methods>
+          <include name="initalizeDriver"/>
+          <include name="createUser" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- learningTestNG.Project_Vultus -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

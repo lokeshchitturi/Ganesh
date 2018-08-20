@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="password" value="zatyvyb"/>
+  <parameter name="username" value="mngr137079"/>
+  <test name="Test(failed)">
+    <parameter name="password" value="zatyvyb"/>
+    <parameter name="username" value="mngr137079"/>
+    <classes>
+      <class name="learningTestNG.Login_Test">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- learningTestNG.Login_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
