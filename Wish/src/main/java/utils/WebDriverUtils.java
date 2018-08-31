@@ -115,6 +115,16 @@ public class WebDriverUtils {
 		}
 	}
 	
+	public static void waitUntilFrameAvailableAndSwitch(int timeOutInSeconds,String frameName) throws Exception
+	{
+		try {
+			new WebDriverWait(driver, timeOutInSeconds).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(frameName));
+		} catch (Exception e) {
+			// TODO: handle exception
+			throw e;
+		}
+	}
+	
 	public static WebElement getWebElement(String args) throws Exception
 	{
 		try {
@@ -306,7 +316,7 @@ public class WebDriverUtils {
 	public static void waitUntilVisible(int timeoutSeconds,By locator)
 	{
 		WebDriverWait wait=new WebDriverWait(driver, timeoutSeconds);
-		wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 		wait.withTimeout(timeoutSeconds, TimeUnit.SECONDS);
 		
 	}

@@ -1,0 +1,78 @@
+{
+"corporate_fields1":
+	{
+		"txtCompanyName":"TestComapny2",	
+		"txtVatRegistrationNumber":"N/A",
+		"txtCompanyRegistrationNumber":"2018/123456/32",
+		"cboRegion":"Free State",
+		"txtPostalLine1":"Hyderabad",
+		"txtCity":"telangana",
+		"cboCountry":"India",
+		"txtPostalCode":"500022",
+		"cboTitle":"Mr",
+		"txtFirstName":"test",
+		"txtSurname":"sai",
+		"txtTelCode":"91",
+		"txtTelNo":"7418529631",
+		"txtEmailCorrespondance":"test223@gmail.com",
+		"cboPaymentMethod":"Monthly Debit Order",
+		"txtBillingLine1":"door no 223",
+		"txtBillingCity":"hyderbad",
+		"txtBillingCode":"500022",
+		"txtBillingContactPerson" :"kohli",
+		"txtBillingContactEmail":"test125@gmail.com",
+		"txtBillingContactCode":"91",
+		"txtBillingContactNumber": "8527429630"
+	},
+"corporate_radios1":
+[
+{"tblFraudDetection":"Only"},
+{"tblCreditGrantingBusiness":"Mostly"},
+{"tblCreditGrantingConsumers":"Sometimes"},
+{"tblPreEmployment":"Never"},
+{"tblTracingOwnDebtors":"Only"},
+{"tblTracingOnBehalf":"Only"},
+{"tblTracingBeneficiaries":"Only"},
+{"tblCompliance":"Only"},
+{"tblOnSell":"Only"},
+{"tblTracingDebtCollection":"Only"},
+{"tblInvestigation":"Only"}
+],
+
+"checkpricing_testdata1":
+	{
+		"TransUnion Credit Report":"0.00",	
+		"Experian Credit Report":"10.00",
+		"XDS Credit Report":"5.00",
+		"Criminal Check - Attach Fingerprints Captured":"35.00",
+		"ID Verification & Validation":"14.00",
+		"ID Verification & Fraud Listing":"85.00",
+		"Drivers Licence":"0.00",
+		"Professional Driving Permit Verification":"0.00",
+		"Matric Pre 1992 DOE":"0.00",
+		"Criminal Record - 91A Form - ONLY for Manual":"0.00",
+		"Matric Post 1992 Umalusi":"sai",
+		"Criminal Record - 91A Form - ONLY for Manual (Premium)":"0.00",
+		"Umalusi Other":"21.00",
+		"N-Levels":"12.00",
+		"Criminal Check - Attach Fingerprints Captured (Premium)":"0.00",
+		"Bank Verification":"55.00"
+	},
+"checkpricing_testdata2":
+	{
+		"Experian Credit Report":"10.00",
+		"XDS Credit Report":"5.00",
+		"Criminal Check - Attach Fingerprints Captured":"35.00",
+		"ID Verification & Fraud Listing":"85.00",
+		"Drivers Licence":"0.00",
+		"Professional Driving Permit Verification":"0.00",
+		"Criminal Record - 91A Form - ONLY for Manual":"0.00",
+		"Matric Post 1992 Umalusi":"sai",
+		"Criminal Record - 91A Form - ONLY for Manual (Premium)":"0.00",
+		"N-Levels":"12.00",
+		"Criminal Check - Attach Fingerprints Captured (Premium)":"0.00",
+		"Bank Verification":"55.00"
+	}	
+	
+	
+}

@@ -1,0 +1,21 @@
+{
+"checkpricing_testdata1":
+	{
+		"TransUnion Credit Report":"0.00",	
+		"Experian Credit Report":"10.00",
+		"XDS Credit Report":"5.00",
+		"Criminal Check - Attach Fingerprints Captured":"35.00",
+		"ID Verification & Validation":"14.00",
+		"ID Verification & Fraud Listing":"85.00",
+		"Drivers Licence":"0.00",
+		"Professional Driving Permit Verification":"0.00",
+		"Matric Pre 1992 DOE":"0.00",
+		"Criminal Record - 91A Form - ONLY for Manual":"0.00",
+		"Matric Post 1992 Umalusi":"sai",
+		"Criminal Record - 91A Form - ONLY for Manual (Premium)":"0.00",
+		"Umalusi Other":"21.00",
+		"N-Levels":"12.00",
+		"Criminal Check - Attach Fingerprints Captured (Premium)":"0.00",
+		"Bank Verification":"55.00"
+	}
+}	
